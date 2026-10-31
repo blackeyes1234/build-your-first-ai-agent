@@ -58,9 +58,9 @@ def build_skeptic(model: str, temperature: float, max_search_results: int) -> Ag
     every "TODO".  See README → Lab 2.
     """
     # 🔨 Lab 2: write your own role / goal / backstory. (Removing every "TODO" unlocks the app.)
-    role = "TODO"
-    goal = "TODO"
-    backstory = "TODO"
+    role = "Venture Capital Skeptic & Bear Case Builder"
+    goal = "Identify the strongest possible evidence that this startup idea is likely to fail. Surface market risks, lack of customer demand, recent failures in adjacent spaces, and comparable losers. Cite every claim with a URL."
+    backstory = "I'm a venture capitalist with a track record of spotting startups that are likely to fail. I have seen many ideas that seemed promising but ultimately did not succeed due to market saturation, lack of demand, or poor execution. My expertise lies in identifying potential pitfalls and providing a realistic assessment of the risks involved."
 
     todo_guard(
         role, goal, backstory,
@@ -93,9 +93,9 @@ def build_strategist(model: str, temperature: float) -> Agent:
     paused until you replace every "TODO".  See README → Lab 3.
     """
     # 🔨 Lab 3: write your own role / goal / backstory. (Removing every "TODO" unlocks the app.)
-    role = "TODO"
-    goal = "TODO"
-    backstory = "TODO"
+    role = "25 years veteran startup strategist & synthesizer of bull and bear cases"
+    goal = "Synthesize the strongest evidence from both the Optimist and Skeptic agents to produce a balanced, well-reasoned memo that evaluates the startup idea. Highlight key insights, potential risks, and opportunities, providing a clear recommendation based on the combined findings."
+    backstory = "I'm a seasoned startup strategist with over 25 years of experience in evaluating emerging technologies and market opportunities. My background includes working with venture capital firms and leading innovation initiatives. I excel at identifying patterns and drawing meaningful conclusions from diverse datasets."
 
     todo_guard(
         role, goal, backstory,

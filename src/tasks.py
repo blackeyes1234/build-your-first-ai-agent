@@ -74,8 +74,13 @@ def build_bear_task(
     The app stays paused until you replace every "TODO".  See README → Lab 2.
     """
     # 🔨 Lab 2: write your own description + expected_output. (Removing every "TODO" unlocks the app.)
-    description = "TODO"
-    expected_output = "TODO"
+    description = "Find all the strongest evidence-backed reasons this startup idea is likely to fail. Research market risks, lack of customer demand, recent failures in adjacent spaces, and comparable losers. Cite every claim with a URL."
+    expected_output = "A structured Markdown brief titled `# 🔪 Bear Case` with these sections:\n" \
+                      "- **Top Reasons to Avoid** (3-5 bullets, each ending with a source link)\n" \
+                      "- **Market Risks** (bulleted evidence with URLs)\n" \
+                      "- **Lack of Customer Demand** (evidence with URLs)\n" \
+                      "- **Comparable Losers** (companies that prove the model won't work)\n" \
+                      "- **Sources** (numbered list of all URLs)"
 
     todo_guard(
         description, expected_output,

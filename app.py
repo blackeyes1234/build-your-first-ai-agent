@@ -137,6 +137,7 @@ with st.sidebar:
         "LLM",
         options=[
             "gemini/gemini-3.6-flash",
+            "gemini/gemini-3.5-flash-lite",
         ],
         index=0,
         help="Gemini models via Google AI Studio. Flash is fast + free tier friendly.",
